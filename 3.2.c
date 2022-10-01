@@ -1,3 +1,18 @@
+/*Realiza la practica en equipo de máximo 3 integrantes.
+• Objetivo general: Elaborar un programa que resuelva el problema de asignación de tareas con el método
+codicioso con la intención de minimizar el costo asociado
+• El programa tendrá las siguientes funcionalidades
+1. Aplicar el método codicioso simple por filas
+2. Aplicar dos veces el método codicioso. La primera vez para ordenar las etapas (columnas) comenzando por el precio más alto global. La segunda vez para elegir al trabajador que cobre menos por el trabajo
+3. Aplicar un criterio de ordenamiento y después el método voraz. El criterio de ordenamiento ordenará las etapas (filas) comenzando por la fila cuya sumatoria de precios sea la mayor. Después se aplicará el método voraz para asignar a cada trabajador el trabajo por el que cobre menos.
+• Especificaciones:
+• El programa leerá los datos del archivo datosP3_2.txt. Cada fila del archivo corresponderá a cada trabajador y cada columna
+a los costos por cada trabajo.
+• El programa deberá validar que el número de trabajos sea el mismo que el número de trabajadores
+• La salida del programa se deberá escribir en el archivo salidaP3_2.txt. Para mayor referencia del formato que debe tener el archivo salidaP3_2.txt revisar del archivo ejemploSalidaP3_2.txt. En el archivo ejemploSalidaP3_2.txt se muestra el resultado de las tres funcionalidades, donde 𝐹𝑊 se refiere a la funcionalidad 𝑊 para 𝑊 = 1,2,3, 𝑃𝐾 se refiere al trabajador 𝐾 y 𝑇𝐾 se refiere al trabajo 𝐾 para K = 1,2,3, ... , 𝑛. Dado que para la funcionalidad de 𝐹1 tiene dos posibilidades, se presentan dos filas una para posibilidad
+• Si existen varias posibilidades deberá presentar todas en el archivo de salida*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
