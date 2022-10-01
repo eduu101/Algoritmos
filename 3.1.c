@@ -1,3 +1,11 @@
+/*Realiza la practica en equipo de máximo 3 integrantes.
+• Objetivo: Elaborar un programa que resuelva el problema del cambio por el método codicioso con la intención de minimizar el número de billetes y monedas que se dan de cambio
+• Especificaciones:
+• El programa deberá recibir la cantidad de la cuál dará cambio, así como el número de billetes de $500,$200,$100,$50, $20 y monedas de $10,$5,$2 y 1 con las que se cuenta.
+• La salida del programa indicará cuantas monedas o billetes y su denominación se entregarán de cambio
+• Condición
+• Existe un número limitado de billetes y monedas de cada valor*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
